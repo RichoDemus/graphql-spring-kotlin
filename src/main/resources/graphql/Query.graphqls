@@ -1,0 +1,13 @@
+type Animal {
+  name: String!
+  mammal: Boolean!
+  description: String!
+}
+
+type Query {
+  allAnimals: [Animal]
+}
+
+schema {
+  query: Query
+}
